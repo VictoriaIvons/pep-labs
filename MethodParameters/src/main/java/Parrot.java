@@ -11,7 +11,7 @@ public class Parrot {
      * @param text is a parameter passed into this method by whatever called it.
      * @return text.
      */
-    System.out.println("Identifier"){
-        return "SimpleName";
+       public String copy(String text){
+        return("text");
     }
 }
