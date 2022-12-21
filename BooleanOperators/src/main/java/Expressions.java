@@ -15,7 +15,11 @@ public class Expressions {
      */
     public boolean returnBoolean(boolean b){
         return false;
+        
+        
+            
     }
+    
 
     /**
      * @param b a true/false value.
@@ -23,7 +27,7 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnNot(boolean b){
-        return false;
+        return true;
     }
 
     /**
@@ -43,7 +47,7 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnOr(boolean b1, boolean b2){
-        return false;
+        returnOr(b1|b2);
     }
 
 
