@@ -14,7 +14,10 @@ public class Expressions {
      * @return if b is true, return true. if b is false, return false.
      */
     public boolean returnBoolean(boolean b){
-        return false;
+        boolean(b==true)
+        return true;
+        boolean(b!=true)
+        return (false);
         
         
             
@@ -27,6 +30,9 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnNot(boolean b){
+        boolean(b=false)
+        return false;
+        boolean(b=true)
         return true;
     }
 
@@ -37,6 +43,9 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnAnd(boolean b1, boolean b2){
+        boolean b1&b2
+        return true;
+        boolean b1&b2
         return false;
     }
 
@@ -47,7 +56,10 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnOr(boolean b1, boolean b2){
-        returnOr(b1|b2);
+        boolean b1|b2
+        return false;
+        boolean b1|b2
+        return true;
     }
 
 
