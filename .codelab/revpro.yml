@@ -111,8 +111,9 @@
     :count_tests: 2
     :count_tests_passed: 1
     :tests:
-      ifStatementTest1: 0
-      ifStatementTest2: 1
+      ifStatementTest1: 1
+      ifStatementTest2: 0
+      IfStatementTest: 0
   BooleanOperators:
     :Week: 1
     :Order: 7
