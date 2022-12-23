@@ -18,7 +18,7 @@ public class InstantiationExample {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        if(Object()==null){
+        if(newObject()==null){
         return null;}
     }
 }
