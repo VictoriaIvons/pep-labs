@@ -48,6 +48,8 @@ public class Player {
      * @param level the starting level of the player to be created.
      */
     public Player(String playerName, int level){
+        Player p = new Player(playerName, level);
+        
 
     }
 
