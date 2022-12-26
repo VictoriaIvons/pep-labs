@@ -54,7 +54,7 @@ public class ArrayBasics {
      * @return a new int array that can contain n elements.
      */
     public int[] returnNewArraySizeN(int n){
-        return (arr = new int[n]) ;
+        return new int[n] ;
 
 }
 }
