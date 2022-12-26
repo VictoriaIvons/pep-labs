@@ -196,8 +196,8 @@
     :count_tests: 9
     :count_tests_passed: 2
     :tests:
-      getLengthTest1: 1
-      getLengthTest2: 0
+      getLengthTest1: 0
+      getLengthTest2: 1
       getNthElementOfArrayTest1: 1
       getNthElementOfArrayTest2: 0
       getNthElementOfArrayTest3: 0
