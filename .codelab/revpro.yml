@@ -216,6 +216,7 @@
       whileLoopTest2: 0
       whileLoopTest3: 0
       whileLoopTest4: 1
+      initializationError: 0
   ForLoop:
     :Week: 2
     :Order: 6
