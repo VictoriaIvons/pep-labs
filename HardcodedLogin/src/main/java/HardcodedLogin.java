@@ -18,14 +18,19 @@ public class HardcodedLogin {
     public boolean login(String username, String password){
     if(username=="admin"){
         if(password =="querty"){
-    }return true;
-} if(username =="user"){
-    if(password=="password")
-    return false;
+    return true;
+        }
+    if(username=="user"){
+        if(password=="querty");{
+        return false;
+    }
+} 
+}
 }
 }
        
-    }
+    
+
 
 
 
