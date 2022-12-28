@@ -19,12 +19,14 @@ public class HardcodedLogin {
     if(username=="admin"){
         if(password =="querty"){
     }return true;
-} else{
+} if(username =="user"){
+    if(password=="password")
     return false;
+}
 }
        
     }
-}
+
 
 
 
