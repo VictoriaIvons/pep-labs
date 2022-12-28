@@ -21,7 +21,7 @@ public class MathClass {
      */
     public double mathPow(double a, double b){
         Math.pow (a,b);
-        return 4;
+        return Math.pow(a,b);
         
     }
 }
