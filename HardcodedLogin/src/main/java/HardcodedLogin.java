@@ -1,3 +1,4 @@
+import javax.lang.model.util.ElementScanner6;
 
 public class HardcodedLogin {
     /**
@@ -15,10 +16,21 @@ public class HardcodedLogin {
      * @return true if there is a successful login, and false otherwise.
      */
     public boolean login(String username, String password){
-    if(username == password){
-        return true;
-    } else
-            return false;
+    if(username=="admin"){
+        if(password =="querty"){
+    }return true;
+} else{
+    return false;
+}
+       
     }
 }
+
+
+
+
+
+
+
+
 
