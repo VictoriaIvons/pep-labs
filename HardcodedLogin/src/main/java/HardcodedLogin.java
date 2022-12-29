@@ -1,5 +1,7 @@
 import javax.lang.model.util.ElementScanner6;
 
+import org.eclipse.jetty.io.RetainableByteBufferPool;
+
 public class HardcodedLogin {
     /**
      * This challenge represents a hardcoded login example:
@@ -16,22 +18,23 @@ public class HardcodedLogin {
      * @return true if there is a successful login, and false otherwise.
      */
     public boolean login(String username, String password){
-        boolean checkIt =true;
-
-        if(username=="admin")
-            {
+      
+        if(username=="admin"&& password=="qwerty")
+        {return true;
+        }
+                
+            if(username=="user"&&password=="password")
+            {return true;
+            }else
+            {return false;
+                
             
-            if(password=="querty")
-                {checkIt= true;
-                }else 
-                {checkIt= false;
-                }
-            
-            }else{
-                checkIt= false;
-            }return checkIt;
         }
     }
+}
+
+    
+    
     
         
         
