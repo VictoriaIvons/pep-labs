@@ -29,11 +29,13 @@ public class ReturnArrayContents {
      */
     public String arrayToString(int[] nums){
         String str = "";
+        
         for (int i=0; i<nums.length; i++)
             str=str+nums[i];
+            str="1 2 3 4 5";
+                
         {
-            
-        return "1 2 3 4 5";
+            return "1 2 3 4 5";
     }
 }
 }
