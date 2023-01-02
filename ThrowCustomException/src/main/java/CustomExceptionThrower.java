@@ -8,19 +8,18 @@ public class CustomExceptionThrower {
      *
      * I recommend looking at the test case for a good example of try/catch block usage, as well.
      */
-    public void throwsCustomException(){
-        
-        class OddCalculator{
-            public int sumofOddNumbers(int x, int y)throws CustomException{
-                if(x%2==0){
+    public void throwCustomException()throws CustomException{
+        int x=9;
+        int y=4;
+        if(x%2==0){
                     throw new CustomException("NumberisEven");
                 }else if (y%2==0){
                     throw new CustomException("NumberisEven");
                 }
 
-            } return(x+y);
+             
+            }
         }
-        }
-    }
+    
 
 
