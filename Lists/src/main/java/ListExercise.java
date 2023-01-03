@@ -30,7 +30,7 @@ public class ListExercise {
      * @return a List<Integer> object.
      */
     public List<Integer> createList(){
-        List<Integer> list =createList();
+        List<Integer> list =new ArrayList<Integer>();
         return null;
     }
 
@@ -41,7 +41,7 @@ public class ListExercise {
      * @return the size of List (number of items it holds.)
      */
     public int getSize(List<Integer> list){
-        
+       list.size(0);
         return 0;
     }
 
