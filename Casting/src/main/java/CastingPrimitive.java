@@ -16,7 +16,7 @@ public class CastingPrimitive {
      * @return the int form of d.
      */
     public int castToInt(double d){
-        int d = (int) 4.3;
-        return d;
+        int num = (int) d ;
+        return num;
     }
 }
