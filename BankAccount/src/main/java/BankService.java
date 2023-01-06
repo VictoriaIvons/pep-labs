@@ -23,8 +23,10 @@ public class BankService {
      * @param amount the amount to be deposited.
      */
     public void deposit(double amount){
+       double balance.add(amount);
 
-    }
+        }
+    
 
     /**
      * TODO: implement functionality to decrease the user's balance by an amount.
@@ -32,7 +34,7 @@ public class BankService {
      * @param amount the amount to be withdrawn.
      */
     public void withdraw(double amount){
-
+       double balance.remove(amount);
     }
 
     /**
