@@ -1,1 +1,1 @@
-SELECT * FROM employee WHERE salary> 50000 AND firstname NOT IN'Steve';
+SELECT * FROM employee WHERE first_name NOT IN('Steve')AND salary> 50000  ;
