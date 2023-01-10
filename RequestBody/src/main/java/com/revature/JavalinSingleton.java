@@ -18,6 +18,13 @@ public class JavalinSingleton {
          */
         app.post("/problem1", ctx -> {
                 //implement logic here
+                String jsonString=ctx.body();
+                ObjectMapper om= new ObjectMapper();
+                Song song =om.readvalue(jsonString, Song.class);
+                ctx.contentType("application/json");
+                song.setSongName("songName");
+                String jsonStringToBeReturned=om.WriteValueAsString(song);
+                ctx.result(jsonStringToBeReturned);
         });
 
         /**
