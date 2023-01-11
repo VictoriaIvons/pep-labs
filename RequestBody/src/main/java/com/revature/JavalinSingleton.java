@@ -23,12 +23,10 @@ public class JavalinSingleton {
                 String jsonString=ctx.body();
                 ObjectMapper om= new ObjectMapper();
                 Song song =om.readValue(jsonString, Song.class);
-                ctx.contentType("application/json");
-                song.setSongName("songName");
-                String jsonStringToBeReturned=om.writeValueAsString(song);
-                ctx.result(jsonStringToBeReturned);
+                ctx.result(song.getArtistName());
+                
         });
-
+       
         /**
          * problem2: retrieve the song object from the request body...
          *      1. update the artist in the song object to "Beatles"
@@ -38,6 +36,15 @@ public class JavalinSingleton {
          */
         app.post("/problem2", ctx -> {
                //implement logic here
+               String jsonString=ctx.body();
+             ObjectMapper om=new ObjectMapper();
+               Song song= om.readValue(jsonString, Song.class);
+               ctx.contentType("application/json");
+               song.setArtistName("Beatles");
+               String jsonStringToBeReturned=om.writeValueAsString(song);
+               ctx.result(jsonStringToBeReturned);
+               
+
         });
 
 
