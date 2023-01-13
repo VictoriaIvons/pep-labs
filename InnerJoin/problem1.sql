@@ -1,0 +1,1 @@
+SELECT student.id, student_name FROM student WHERE student.id=student.student_name;
