@@ -1,0 +1,1 @@
+SELECT textbook.textbook_name,class.teacher_name, class.class_title FROM class RIGHT JOIN textbook ON class.class_title=texbook.texbook_title;
