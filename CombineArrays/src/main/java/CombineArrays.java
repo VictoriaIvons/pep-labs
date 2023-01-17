@@ -1,4 +1,6 @@
 
+
+
 public class CombineArrays {
     /**
      * Combine two arrays into a single array and return it.
@@ -8,7 +10,12 @@ public class CombineArrays {
      * @return an array containing the contents of arr1 followed by the contents of arr2.
      */
     public int[] combine(int[] arr1, int[] arr2){
-
-       return combine(arr1, arr2);
+       int[]array=new int[arr1.length+arr2.length];
+       for(int i=0;i<arr1.length;i++){
+        array[i]=arr1[i];
+       } 
+   for(int j=0; j<arr2.length;j++){
+    array[j+arr1.length]=arr2[j];
+        }return array;
     }
 }
