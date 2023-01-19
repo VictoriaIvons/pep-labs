@@ -32,7 +32,7 @@ public class BookDAO {
         List<Book> books = new ArrayList<>();
         try {
             //Write SQL logic here
-            String sql = "select*from books";
+            String sql = "select*from book";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             ResultSet rs = preparedStatement.executeQuery();
             while(rs.next()){
@@ -87,7 +87,7 @@ preparedStatement.setInt(1,isbn);
         Connection connection = ConnectionUtil.getConnection();
         try {
             //Write SQL logic here
-            String sql = "insert into book(ibsn,author_id,title,copies_available) values(?,?,?,?)" ;
+            String sql = "insert into book(isbn,author_id,title,copies_available) values(?,?,?,?)" ;
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
             //write preparedStatement's setString and setInt methods here.
