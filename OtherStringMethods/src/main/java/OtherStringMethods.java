@@ -11,6 +11,7 @@ public class OtherStringMethods {
      * @return
      */
     public String partOfString(String s, int start, int end){
+        s.substring(start,end);
         return "";
     }
 
@@ -26,8 +27,10 @@ public class OtherStringMethods {
      * and 0 if s1 is equivalent to s2.
      */
     public int compareLexigraphically(String s1, String s2){
-        return 0;
+      return 0;
+    
     }
+    
 
     /**
      * The split method is useful for dividing a string into multiple strings, most notably for dividing a sentence
@@ -41,4 +44,5 @@ public class OtherStringMethods {
     public String[] splitStringIntoMultipleStrings(String s1, String splitAround){
         return null;
     }
+
 }
