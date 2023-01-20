@@ -13,8 +13,8 @@ public class RemoveAllCharacter {
      */
     public String removeAll(String str, String ch){
         for(int i=0;i<str.length();i++){
-            str.replace(ch,str);
+            str.replace(ch,"");
         }
-        return str.replace(ch,str);
+        return str.replace(ch,"");
     }
 }
