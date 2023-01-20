@@ -12,9 +12,9 @@ public class RemoveAllCharacter {
      * @return str, without any characters of type ch.
      */
     public String removeAll(String str, String ch){
-        for(int i=input.length-1; i>0;i--){
-
+        for(int i=0;i<str.length();i++){
+            str.replace(ch,str);
         }
-        return "";
+        return str.replace(ch,str);
     }
 }
