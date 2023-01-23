@@ -57,8 +57,9 @@ public class SampleClass {
 
     //    implement a custom .equals(SampleClass other){} method here.
 
+   SampleClas;
 
     //    implement a custom .toString(){} method here.
-
+    public int toString(a);
     
 }
