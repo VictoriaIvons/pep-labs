@@ -922,6 +922,10 @@
       toStringTest2: 0
       toStringTest3: 0
       toStringTest4: 0
+      abvTest1: 0
+      abvTest2: 0
+      abvTest3: 0
+      abvTest4: 0
   Overriding:
     :Week: 8
     :Order: 2
