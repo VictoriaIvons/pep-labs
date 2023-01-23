@@ -65,7 +65,7 @@ public boolean equals(SampleClass other){
     
 
     //    implement a custom .toString(){} method here.
-     public String toString(int a){
+     public String toString(){
          String str="String"+(a)+(b);
      return str;}
     
