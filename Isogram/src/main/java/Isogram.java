@@ -15,9 +15,11 @@ public class Isogram {
      * @return true if str is an isogram, false otherwise.
      */
     public boolean isIsogram(String str){
-        Set<String>set=new HashSet<String>();
-        for(int i=0; i<str.length();i++){
-            if(set!=null){
+        Set<Character>set=new HashSet<Character>();
+        char []arr=str.toCharArray();
+        for(char ch:arr){
+            set.add(ch);
+            if(set.size()==str.length()){
                 return true;
             }
         }
