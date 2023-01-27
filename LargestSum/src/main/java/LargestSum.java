@@ -1,4 +1,5 @@
 
+import java.util.Collections;
 import java.util.List;
 
 public class LargestSum {
@@ -11,7 +12,7 @@ public class LargestSum {
      */
     public int bigSum(List<Integer> nums){
        int LargestSum=0;
-       
+       Collections.sort(nums);
       LargestSum=nums.get(nums.size()-1)+nums.get(nums.size()-2);
 
     return LargestSum;
