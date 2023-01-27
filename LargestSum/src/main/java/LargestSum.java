@@ -12,9 +12,8 @@ public class LargestSum {
     public int bigSum(List<Integer> nums){
        int LargestSum=0;
        
-       for(int i=0; i<nums.size();i++){
       LargestSum=nums.get(nums.size()-1)+nums.get(nums.size()-2);
-}
+
     return LargestSum;
        
         } 
