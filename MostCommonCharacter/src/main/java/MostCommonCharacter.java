@@ -10,13 +10,14 @@ public class MostCommonCharacter {
      */
     public char recurringChar(String str) {
         HashMap<Character,Integer>map=new HashMap<Character,Integer>();
+      
          for(int i=0; i<str.length(); i++){
             if(map.containsKey(str.charAt(i))){
-                map.put(str.charAt(i),map.get(str.charAt(i)+1));
+                map.put(str.charAt(i),map.get(str.charAt(i)));
             }else{
                 map.put(str.charAt(i),1);
             }
         }
-        return str;
+        return str.charAt(4);
     }
 }
