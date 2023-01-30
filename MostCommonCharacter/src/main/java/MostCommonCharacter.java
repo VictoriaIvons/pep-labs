@@ -10,14 +10,18 @@ public class MostCommonCharacter {
      */
     public char recurringChar(String str) {
         HashMap<Character,Integer>map=new HashMap<Character,Integer>();
-      
-         for(int i=0; i<str.length(); i++){
-            if(map.containsKey(str.charAt(i))){
-                map.put(str.charAt(i),map.get(str.charAt(i)));
-            }else{
-                map.put(str.charAt(i),1);
-            }
-        }
-        return str.charAt(4);
+        Character maxCharacter=' ';
+    for(int i=0; i<str.length(); i++){
+          Character current=str.charAt(i);
+          if(map.containsKey(current)){
+            map.put(current,map.get(current)+1);
+          
+           }else  map.put(current,1);{
+
+           }
+            
+        }return map.get(str.charAt(i),1);
     }
 }
+   
+
